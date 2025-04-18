@@ -1,0 +1,111 @@
+/* Mengatur gaya dasar untuk seluruh dokumen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1DED1;
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #d2601a;
+    color: white;
+    text-align: center;
+    padding: 28px;
+}
+
+/* Gaya untuk judul utama dan paragraf di header */
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tombol-btn .btn {
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(61, 127, 228);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.tombol-btn .btn:hover {
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(61, 127, 228);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+/* Gaya untuk konten utama */
+main {
+    padding: 20px;
+}
+
+/* Mengatur jarak antar section */
+section {
+    margin-bottom: 40px;
+}
+
+/* Gaya untuk judul makanan */
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+}
+
+/* Mengatur tata letak gambar dan deskripsi makanan */
+.food-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Mengatur gambar makanan */
+.food-item img {
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur deskripsi makanan */
+.description {
+    max-width: 700px;
+}
+
+.colored-section {
+    background-color: aqua;
+    padding: 30px;
+    color: black;
+    border-radius: 15px;
+}
+
+.colored-section1 {
+    background-color: aqua;
+    padding: 30px;
+    color: black;
+    border-radius: 15px;
+}
+
+.colored-section2 {
+    background-color: aqua;
+    padding: 30px;
+    color: black;
+    border-radius: 15px;
+}
+
+

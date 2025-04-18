@@ -1,0 +1,124 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Foto/abstract-orange-fluid-wave-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block; 
+}
+
+/* kelompokan div logo */
+.logo {
+    float: left;
+    margin-left: 45px;
+    padding: 0px 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo p {
+    text-decoration: none;
+    color: yellow;
+}
+
+.logo span {
+    color: white;
+}
+
+/* kelompok div nav */
+.nav {
+    position: absolute;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 140px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Releway', sans-serif;
+    padding: 15px 15px;
+    font-weight: 600;
+}
+
+.nav ul li:hover {
+    border-bottom: 4px solid #000000;
+    transition: all .2s ease;
+}
+
+/* kelompok div class header */
+.header {
+    position: absolute;
+    top: 40%;
+    left: 71.6%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 50px;
+    text-shadow:5px 5px 2px #000000;
+}
+
+.header span {
+    color: #45b33b;
+}
+
+/* kelompok div content-header */
+.content-header {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 72%;
+}
+
+.content-header p {
+    font-family: 'Releway', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color: #085908;
+}
+
+/* kelompok div img */
+[class="col-img"] {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    width: 57%;
+    text-align: -webkit-right;
+}
+
+[class="col-img img"] {
+    width: 100%;
+}
+
+.footer {
+    position: fixed ;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    color: white;
+}
+
